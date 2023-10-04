@@ -1,9 +1,9 @@
 ﻿using System;
 namespace TechJobsOOAutoGraded6
 {
-	public class Location
+	public class Location : JobField
 	{
-        public int Id { get; }
+        /*public int Id { get; }
         private static int nextId = 1;
         public string Value { get; set; }
 
@@ -11,11 +11,14 @@ namespace TechJobsOOAutoGraded6
         {
             Id = nextId;
             nextId++;
-        }
+        */
 
         // TODO: Task 2: Add a second constructor to this class that uses the Location() constructor and sets the value of the value field.
-
-        public override bool Equals(object obj)
+        public Location(string value) : base(value)
+        {
+            //Value = value;
+        }
+        /*public override bool Equals(object obj)
         {
             return obj is Location location &&
                    Id == location.Id;
@@ -29,7 +32,7 @@ namespace TechJobsOOAutoGraded6
         public override string ToString()
         {
             return Value;
-        }
+        }*/
     }
 }
 

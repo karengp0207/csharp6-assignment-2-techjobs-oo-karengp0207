@@ -2,7 +2,7 @@
 using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
 
-namespace TechJobsOO.Tests
+namespace TechJoTechJobsOOAutoGraded6.RunTechJobsbsOO.Tests
 {
 	[TestClass]
     public class TestTask5
